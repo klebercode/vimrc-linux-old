@@ -290,7 +290,9 @@ noremap <Leader>h :split<CR>
 noremap <Leader>v :vsplit<CR>
 
 "" Git
+noremap <Leader>gi :!git init<CR>
 noremap <Leader>ga :!git add .<CR>
+noremap <Leader>gre :!git remote add <C-R>=""<CR>
 noremap <Leader>gc :!git commit -m '<C-R>="'"<CR>
 noremap <Leader>gp :!git push <C-R>=""<CR>
 noremap <Leader>gpp :!git push production master<CR>
